@@ -10,7 +10,9 @@ Integrantes: María José Barrios, Julian Marciales, Juan David Cordobá
 
 ## Objetivo
 
-El objetivo principal del proyecto es crear un juego de sopa de letras en Python que permita a los usuarios interactuar con una matriz de letras generada aleatoriamente. en esta entrega de avance se busca haber definido el diseño inicial del juego, así como mostrar el progreso en la implementación de las funciones clave. Importante:
+El objetivo principal es crear un juego de sopa de letras (en python) que permita a los usuarios interactuar con una matriz de letras generada aleatoriamente. en esta entrega de avance se busca definir el diseño inicial del juego y poder mostrar el progreso en la implementación de las funciones que hemos creado hasta ahora
+
+Importante:
 
 1. Definir el diseño inicial del juego de sopa de letras, explicando cómo se generará la sopa, cómo se verificaran las palabras y cómo se presentará la interfaz al usuario.
 2. Mostrar el progreso en la implementación de las funciones principales del juego como por ejemplo: la creación de la matriz, la inserción de letras y el formato de la sopa de letras.
@@ -78,7 +80,7 @@ def rellenar_matriz(matriz):    # Función para rellenar la matriz con letras
 ```
 
 ### Función de instrucciones
-Para mejorar la experiencia del usuario, se incluyó una función de instrucciones que proporciona una introducción clara sobre cómo jugar a la sopa de letras. En ella se explican las dinámicas de las tres dificultades disponibles: baja, media y alta. Ademas, se describen brevemente las reglas del juego. Aunque el código aún está en desarrollo y no tiene la funcionalidad completa para la colocación y búsqueda de palabras consideramos que la estructura está bien definida, obvio teniendo en cuenta los comentarios en el código que indican las modificaciones pendientes
+Para mejorar la experiencia del usuario se incluyó una función de instrucciones que proporciona una introducción clara sobre cómo jugar a la sopa de letras. Se explicaran las dinámicas de las tres dificultades disponibles: baja, media y alta y se describira brevemente las reglas del juego. Aunque el código aún está en desarrollo y no tiene la funcionalidad completa para la colocación y búsqueda de palabras consideramos que la estructura está bien definida, obvio teniendo en cuenta los comentarios en el código que indican las modificaciones pendientes
 
 ```python
 def instrucciones():
